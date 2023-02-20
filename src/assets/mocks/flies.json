@@ -1,0 +1,287 @@
+{
+  "flies": [
+    {
+      "id": 1,
+      "name": "Tricoptero de Ciervo",
+      "type": "Tricoptero",
+      "descriptionOfFly": "tricoptero ideal a partir de junio",
+      "months": [
+        "Mayo"
+      ],
+      "size": [
+        "12"
+      ],
+      "location": [
+        "medios"
+      ],
+      "imageURL": "./assets/img/trico.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Baron Rojo",
+      "type": "Atractora",
+      "descriptionOfFly": "tricoptero ideal a partir de junio",
+      "months": [
+        "Abril"
+      ],
+      "size": [
+        "12"
+      ],
+      "location": [
+        "medios"
+      ],
+      "imageURL": "./assets/img/baron.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Oxido",
+      "type": "Atractora",
+      "descriptionOfFly": "tricoptero ideal a partir de junio",
+      "months": [
+        "Mayo"
+      ],
+      "size": [
+        "14"
+      ],
+      "location": [
+        "medios"
+      ],
+      "imageURL": "./assets/img/oxido.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Danica",
+      "type": "Efemera",
+      "descriptionOfFly": "Tambien conocida como la 'mosca de Mayo'. Es una efemera cuya epoca de eclosion oscila entre los meses de mayo y mediados de agosto",
+      "months": [
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto"
+      ],
+      "size": [
+        "12",
+        "14",
+        "16"
+      ],
+      "location": [
+        "medios"
+      ],
+      "imageURL": "./assets/img/oxido.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Vulgata",
+      "type": "Efemera",
+      "descriptionOfFly": "Es un tipo de efemera cuya epoca de eclosion oscila entre los meses de junio y septiembre",
+      "months": [
+        "Junio",
+        "Julio",
+        "Agosto",
+        "septiembre"
+      ],
+      "size": [
+        "12",
+        "14",
+        "16"
+      ],
+      "location": [
+        "Cursos medios y bajos de los rios"
+      ],
+      "imageURL": "./assets/img/oxido.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Niger",
+      "type": "Efemera",
+      "descriptionOfFly": "efemera cuya epoca de eclosion oscila entre los meses de marzo y mediados de julio, teniendo su punto algido al medio dia y primeras horas de la tarde",
+      "months": [
+        "Mayo",
+        "Junio",
+        "Julio"
+      ],
+      "size": [
+        "18",
+        "20"
+      ],
+      "location": [
+        "Cursos altos y medios de los rios"
+      ],
+      "imageURL": "./assets/img/oxido.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Rhodani",
+      "type": "Efemera",
+      "descriptionOfFly": "efemera cuya epoca de eclosion oscila entre los meses de febrero y mediados de abril ademas de septiembre y octubre, en dias de con tiempo frio y desapacible a las horas centrales del dia",
+      "months": [
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Septiempre",
+        "Octubre"
+      ],
+      "size": [
+        "16",
+        "18"
+      ],
+      "location": [
+        "medios"
+      ],
+      "imageURL": "./assets/img/oxido.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Rhithrogena Haaruppi",
+      "type": "Efemera",
+      "descriptionOfFly": "Tambien conocida como 'el Pardon de Marzo'. Es una efemera cuya epoca de eclosion oscila entre los meses de marzo y mediados de julio, cuya maxima intensidad es en el mediodia",
+      "months": [
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio"
+      ],
+      "size": [
+        "12",
+        "14"
+      ],
+      "location": [
+        "Cursos altos y medios de los rios"
+      ],
+      "imageURL": "./assets/img/oxido.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ignita",
+      "type": "Efemera",
+      "descriptionOfFly": "Tambien conocida con 'Carnita'. Es una efemera cuya epoca de eclosion oscila entre los meses de junio y mediados de octubre",
+      "months": [
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiempre",
+        "Octubre"
+      ],
+      "size": [
+        "18",
+        "20"
+      ],
+      "location": [
+        "medios"
+      ],
+      "imageURL": "./assets/img/oxido.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Notata",
+      "type": "Efemera",
+      "descriptionOfFly": "efemera cuya epoca de eclosion oscila entre los meses de mayo y junio",
+      "months": [
+        "Mayo",
+        "Junio"
+      ],
+      "size": [
+        "16",
+        "18",
+        "20"
+      ],
+      "location": [
+        "medios"
+      ],
+      "imageURL": "./assets/img/oxido.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Ritrogena",
+      "type": "Efemera",
+      "descriptionOfFly": "efemera cuya epoca de eclosion oscila entre los meses de mayo y agosto",
+      "months": [
+        "Mayo"
+      ],
+      "size": [
+        "12"
+      ],
+      "location": [
+        "medios"
+      ],
+      "imageURL": "./assets/img/oxido.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Caenis",
+      "type": "Efemera",
+      "descriptionOfFly": "efemera cuya epoca de eclosion oscila entre los meses de mayo y junio en dias muy calurosos al amanecer",
+      "months": [
+        "Mayo",
+        "Junio"
+      ],
+      "size": [
+        "20",
+        "22",
+        "24"
+      ],
+      "location": [
+        "Cursos medios y bajos de grandes rios"
+      ],
+      "imageURL": "./assets/img/oxido.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Oligoneuriella Rhenana",
+      "type": "Efemera",
+      "descriptionOfFly": "Tambien conocida como 'Palometa'.Es una efemera cuya epoca de eclosion oscila entre los meses de mayo y junio pocas horas antes del anochecer en dias suaves y calurosos",
+      "months": [
+        "Mayo",
+        "Junio"
+      ],
+      "size": [
+        "12",
+        "14"
+      ],
+      "location": [
+        "Cursos medios y bajos de grandes rios"
+      ],
+      "imageURL": "./assets/img/oxido.jpeg",
+      "hashtag": [
+        "Mosca"
+      ]
+    }
+  ]
+}
