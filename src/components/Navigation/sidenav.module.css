@@ -24,7 +24,6 @@
   padding-left: 16px;
 }
 
-
 .linkTextClosed {
   composes: linkText;
   visibility: hidden;
@@ -33,6 +32,7 @@
 .sideitem:hover {
   background-color: #244f7d1c;
 }
+
 .menuBtn {
   align-self: center;
   align-self: flex-start;
@@ -41,8 +41,6 @@
   cursor: pointer;
   padding-left: 20px;
 }
-
-
 
 .hamburger {
   cursor: pointer;
@@ -61,7 +59,6 @@
   -ms-user-select: none;
   user-select: none;
 }
-
 
 ._layer {
   background: #365314;
