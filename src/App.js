@@ -4,17 +4,29 @@ import FlyPage from "./pages/FlyPage";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Sidenav from "./components/Navigation/Sidenav";
+import TroutPage from "./pages/TroutPage";
+import PlacesPage from "./pages/PlacesPage";
+import DarkToggleButton from "./components/Button/DarkToggleButton";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-white dark:bg-lime-900">
+      <DarkToggleButton />
       <Sidenav />
-      <main>
+      <main className="w-full">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="flies" element={<FlyPage />} />
+          <Route path="trouts" element={<TroutPage />} />
+          <Route path="places" element={<PlacesPage />} />
         </Routes>
       </main>
+      <ScrollToTop
+          smooth
+          color="#365314"
+          className="font-bold flex items-center justify-center"
+        />
     </div>
   );
 }

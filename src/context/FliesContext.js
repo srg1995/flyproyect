@@ -7,7 +7,7 @@ export function FliesContextProvider({children}){
 
   const [flies, setFlies] = useState(getFlies());
   
-  return <Context.Provider value={[flies, setFlies]}>
+  return <Context.Provider value={{flies, setFlies}}>
     {children}
   </Context.Provider>
 }

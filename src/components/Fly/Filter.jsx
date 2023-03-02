@@ -4,7 +4,7 @@ import FliesContext from "../../context/FliesContext";
 import { MdOutlineCleaningServices } from "react-icons/md";
 import getFlies from "../../services/getFlies";
 export default function Filter() {
-  const [flies, setFlies] = useContext(FliesContext);
+  const { flies, setFlies } = useContext(FliesContext);
 
   const formFilters = useRef();
 
@@ -48,11 +48,11 @@ export default function Filter() {
         className="flex justify-center items-center flex-wrap gap-4"
       >
         <div className="flex flex-col w-32 mb-6">
-          <label className="block mb-2 text-sm font-medium text-white">
+          <label className="block mb-2 text-sm font-medium text-lime-700 dark:text-amber-200">
             Tipo
           </label>
           <select
-            className="text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
+            className="text-sm rounded-lg block w-full p-2.5 bg-transparent border-lime-700 border-2 dark:hover:border-lime-200 dark:bg-lime-900 dark:border-lime-400 placeholder-gray-400 text-slate-800 dark:text-amber-200 focus:border-lime-500 hover:border-lime-500"
             onChange={handleFilterType}
           >
             <option value="Selecciona">Selecciona</option>
@@ -62,11 +62,11 @@ export default function Filter() {
           </select>
         </div>
         <div className="flex flex-col w-32 mb-6">
-          <label className="block mb-2 text-sm font-medium text-white">
+          <label className="block mb-2 text-sm font-medium text-lime-700 dark:text-amber-200">
             Mes
           </label>
           <select
-            className="text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
+            className="text-sm rounded-lg block w-full p-2.5 bg-transparent border-lime-700 border-2 dark:hover:border-lime-200 dark:bg-lime-900 dark:border-lime-400 placeholder-gray-400 text-slate-800 dark:text-amber-200 focus:border-lime-500 hover:border-lime-500"
             onChange={handleFilterMonth}
           >
             <option value="Selecciona">Selecciona</option>
@@ -85,11 +85,11 @@ export default function Filter() {
           </select>
         </div>
         <div className="flex flex-col w-32 mb-6">
-          <label className="block mb-2 text-sm font-medium text-white">
+          <label className="block mb-2 text-sm font-medium text-lime-700 dark:text-amber-200">
             Tamaño
           </label>
           <select
-            className="text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
+            className=" text-sm rounded-lg block w-full p-2.5 border-lime-700 border-2 dark:hover:border-lime-200 dark:bg-lime-900 dark:border-lime-400 placeholder-lime-400 text-slate-800 dark:text-amber-200 bg-dark focus:border-lime-500 hover:border-lime-500"
             onChange={handleFilterSize}
           >
             <option value="Selecciona">Selecciona</option>
@@ -102,7 +102,7 @@ export default function Filter() {
           </select>
         </div>
         <button
-          className="text-sm flex gap-2 items-center p-3 rounded-xl bg-gray-500 border-gray-600 placeholder-gray-400 text-white hover:bg-blue-500 hover:border-blue-500"
+          className="text-sm flex gap-2 items-center p-3 rounded-xl text-lime-900 border-lime-700 dark:border-lime-400 border-2 bg-transparent placeholder-gray-400   dark:text-amber-200 dark:hover:text-lime-900  dark:hover:bg-lime-400  hover:bg-lime-100 "
           onClick={handlerClean}
         >
           limpiar filtro
