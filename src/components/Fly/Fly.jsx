@@ -13,7 +13,6 @@ export default function Fly({ type }) {
         />
         <p className="text-amber-800 text-base">{type.description}</p>
       </div>
-
       <div className="px-6 pt-4 pb-2">
         {type.hashtag?.map((hashtag, index) => {
           return (
