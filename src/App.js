@@ -25,10 +25,10 @@ function App() {
         </Routes>
       </main>
       <ScrollToTop
-          smooth
-          color="#365314"
-          className="font-bold flex items-center justify-center"
-        />
+        smooth
+        color="#365314"
+        className="font-bold flex items-center justify-center animate-bounce"
+      />
     </div>
   );
 }
